@@ -1,0 +1,39 @@
+.pStyle {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+.h1Style {
+  font-size: 3.6rem;
+  font-weight: bolder;
+}
+
+.iconBox {
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+
+.descStyle {
+  max-width: 17rem;
+  font-size: 1.25rem;
+  font-weight: lighter;
+}
+
+h3 {
+  font-weight: medium;
+}
+
+.betweenPad {
+  width: 6.5rem;
+}
+
+.rowComp {
+  padding-bottom: 5rem;
+}
+
+.hrStyle {
+  height: 0.4px;
+  width: 35%;
+  background-color: grey;
+}
