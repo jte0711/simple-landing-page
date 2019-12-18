@@ -5,7 +5,7 @@
 }
 
 .h1Style {
-  font-size: 3.6rem;
+  font-size: 3rem;
   font-weight: bolder;
 }
 
@@ -36,4 +36,24 @@ h3 {
   height: 0.4px;
   width: 35%;
   background-color: grey;
+}
+
+.brands {
+  color: white;
+  font-size: 2rem;
+  margin: 0rem 0.65rem;
+}
+
+.navFooterItems {
+  color: white;
+  font-size: 1.1rem;
+  margin: 0rem 2.5rem;
+}
+
+.buttonCta {
+  margin-top: 1.3rem;
+}
+
+.navButton {
+  margin-right: 3rem;
 }

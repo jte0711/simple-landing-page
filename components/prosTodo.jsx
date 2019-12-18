@@ -5,7 +5,7 @@ let featuresStyle = {
 };
 
 let h1Style = {
-  margin: "2.5rem 0 7rem 0",
+  margin: "2.5rem 0 3rem 0",
   maxWidth: "45rem"
 }
 
@@ -17,7 +17,7 @@ let imgStyle = {
   height: "28rem"
 }
 
-class PageResponsive extends React.Component{
+class PageTodo extends React.Component{
 
   constructor(props){
     super(props);
@@ -34,7 +34,7 @@ class PageResponsive extends React.Component{
 
     if (this.state.titleAlign == "right"){
       h1Style = {
-        margin: "2.5rem 0 7rem 0",
+        margin: "2.5rem 0 3rem 0",
         width: "100%",
         textAlign: "right"
       }
@@ -57,4 +57,4 @@ class PageResponsive extends React.Component{
   }
 }
 
-export default PageResponsive;
+export default PageTodo;

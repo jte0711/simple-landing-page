@@ -5,7 +5,7 @@ let featuresStyle = {
 };
 
 let h1Style = {
-  margin: "2.5rem 0 7rem 0",
+  margin: "2.5rem 0 5rem 0",
   maxWidth: "45rem"
 }
 
