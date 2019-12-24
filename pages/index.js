@@ -6,6 +6,7 @@ import PageResponsive from '../components/prosResponsive';
 import PageTodo from '../components/prosTodo';
 import CallToAction from '../components/callToAction';
 import Footer from '../components/footer';
+import NavHead from '../components/header';
 import 'bootstrap/dist/css/bootstrap.css';
 import "../components/css/style.css";
  
@@ -18,6 +19,7 @@ class LandingPage extends React.Component{
           <title>Simple Landing Page</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
         </Head>
+        <NavHead/>
         <Home/>
         <Features/>
         <PageResponsive imgSrc="images/undraw_trendy_interface_lg8x.svg" imgAlt="Trendy interface illustration" title="Responsive and designed 

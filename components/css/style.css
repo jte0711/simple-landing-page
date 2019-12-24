@@ -57,3 +57,20 @@ h3 {
 .navButton {
   margin-right: 3rem;
 }
+
+div .navbar {
+  background-color: white;
+}
+
+.nav-item {
+  margin: 0rem 5rem;
+  font-size: 1.2rem;
+}
+
+.formLabel {
+  margin-bottom: 0.75rem;
+}
+
+.formInput {
+  margin-bottom: 1.2rem;
+}
