@@ -16,7 +16,7 @@ class CallToAction extends React.Component{
       <div className="container-fluid d-flex flex-column align-items-center" style={featuresStyle}>
         <hr className="hrStyle"/>
         <h1 className="h1Style" align="center" style={headStyle}>One app to manage all. <br/> Join us now.</h1>
-        <Buttons addClass="buttonCta" text="Get started"/>
+        <Buttons addClass="buttonCta" link="/signup" text="Get started"/>
       </div>
     );
   }

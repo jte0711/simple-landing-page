@@ -22,7 +22,7 @@ class Home extends React.Component{
         <div className="container" style={ctaStyle}>
           <h1 className="h1Style"><center>Manage your day in one app</center></h1>
           <p className="pStyle"><center>The only app you needs today, tomorrow, and every days after</center></p>
-          <Buttons className="buttonCta" text="Sign me up"/>
+          <Buttons className="buttonCta" link="/signup" text="Sign me up"/>
         </div>
         <div className="bgImage">
           <img src="/images/home-image.png" alt="Background image" style={bgImgStyle}/>

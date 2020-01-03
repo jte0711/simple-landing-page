@@ -3,8 +3,7 @@ import { Button } from 'reactstrap';
 
 let buttonStyle = {
   // marginTop: "1.3rem",
-  width: "8.7rem",
-  height: "3.575rem",
+  padding: "1rem 1.7rem",
   borderRadius: "15px",
   fontSize: "1.2rem",
   backgroundColor: "#38D39F",
@@ -17,12 +16,21 @@ class Buttons extends React.Component{
 
   constructor(props){
     super(props);  
+    this.link = null;
+    if (this.props.link != null){
+      this.link = this.props.link;
+    }
   }
 
   render(){
-    return(
-      <Button className={this.props.addClass} color="primary" style={buttonStyle}>{this.props.text}</Button>
-    );
+    
+    if (this.link != null){
+      return <Button className={this.props.addClass} href={this.link} size="lg" color="primary" style={buttonStyle}>{this.props.text}</Button>;
+      // return <Button className={this.props.addClass} href={this.link} color="primary" style={buttonStyle}>{this.props.text}</Button>;
+    } else {
+      return <Button className={this.props.addClass} color="primary" style={buttonStyle}>{this.props.text}</Button>;
+    }
+
   }
 }
 

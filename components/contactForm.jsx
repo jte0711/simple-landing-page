@@ -16,7 +16,7 @@ let bgImgStyle = {
   marginTop: "3.5rem"
 }
 
-class ContactPage extends React.Component{
+class ContactContent extends React.Component{
   render(){
     return(
 
@@ -46,4 +46,4 @@ class ContactPage extends React.Component{
   }
 }
 
-export default ContactPage;
+export default ContactContent;
