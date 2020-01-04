@@ -1,3 +1,7 @@
+.example::-webkit-scrollbar {
+  display: none;
+}
+
 .pStyle {
   margin-top: 1rem;
   font-size: 1.1rem;
