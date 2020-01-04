@@ -16,7 +16,7 @@ let navStyle = {
 class NavHead extends React.Component{
   render(){
     return(
-      <nav className="navbar navbar-expand-lg navbar-light d-flex justify-content-between" style={navStyle}>
+      <nav className="navbar navbar-expand-sm navbar-light d-flex justify-content-between" style={navStyle}>
         <a className="navbar-brand d-flex" href="/index">
           <img style={logoStyle} src="images/laptop.svg" width="30" height="30" className="d-inline-block align-top" alt="logo"/>
           <span style={spanStyle}>Dayday</span>

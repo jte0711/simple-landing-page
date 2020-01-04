@@ -85,8 +85,8 @@ div .navbar {
   }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 770px) {
   html {
-    font-size: 12px;
+    font-size: 9px;
   }
 }
