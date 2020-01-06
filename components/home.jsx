@@ -9,19 +9,32 @@ let bgImgStyle = {
   height: "41rem",
 };
 
+let bgImgStyleMb = {
+  marginTop: "2rem",
+  width: "34rem"
+}
+
 let ctaStyle = {
   marginTop: "12.5rem",
   textAlign: "center",
   width: "35rem"
 };
 
+let ctaStyleMb = {
+  marginTop: "3rem",
+  textAlign: "center",
+  width: "35rem",
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center"
+};
 
 class Home extends React.Component{
   
   constructor(props){
     super(props);
     this.state = {
-      screenWidth: 1400
+      screenWidth: 1000,
     }
   }
 
@@ -38,9 +51,9 @@ class Home extends React.Component{
   }
 
   render(){
-    
+
     let isMobile = (this.state.screenWidth <= 720);
-    
+
     if (isMobile !== true){
       return(
         <div className="container-fluid d-flex">
@@ -56,7 +69,17 @@ class Home extends React.Component{
       );
     } else {
       return(
-        <p>Work in progress</p>
+        <div className="container-fluid d-flex flex-column align-items-center">
+          <div className="bgImage">
+            <img src="/images/home-image.png" alt="Background image" style={bgImgStyleMb}/>
+          </div>
+          <div className="container" style={ctaStyleMb}>
+            <h1 className="h1StyleMb"><center>Manage your day in one app</center></h1>
+            <p className="pStyleMb"><center>The only app you needs today, tomorrow, and every days after</center></p>
+            <Buttons className="buttonCta" link="/signup" text="Sign me up"/>
+          </div>
+          
+        </div>
       );
     }
     
