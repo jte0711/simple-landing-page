@@ -7,7 +7,8 @@ import PageTodo from '../components/prosTodo';
 import CallToAction from '../components/callToAction';
 import Footer from '../components/footer';
 import NavHead from '../components/header';
-import 'bootstrap/dist/css/bootstrap.css';
+import "../node_modules/jquery/dist/jquery.min.js";
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import "../components/css/style.css";
  
 
