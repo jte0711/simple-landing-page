@@ -84,8 +84,13 @@ h3 {
   margin: 0rem 2.5rem;
 }
 
+.homeButton-Mb {
+  width: 15rem;
+  text-align: center;
+}
 .buttonCta {
-  margin-top: 1.3rem;
+  margin-top: 1rem;
+  font-size: 1rem;
 }
 
 .navButton {

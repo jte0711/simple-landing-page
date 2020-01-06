@@ -3,13 +3,14 @@ import { Button } from 'reactstrap';
 
 let buttonStyle = {
   // marginTop: "1.3rem",
-  padding: "1rem 1.7rem",
+  // padding: "1rem 1.7rem",
   borderRadius: "15px",
   fontSize: "1.2rem",
   backgroundColor: "#38D39F",
   borderColor: "#38D39F",
   opacity: "95%",
-  color: "black"
+  color: "black",
+  width: "10rem"
 };
 
 class Buttons extends React.Component{

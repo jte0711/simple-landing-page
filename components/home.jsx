@@ -55,12 +55,13 @@ class Home extends React.Component{
     let isMobile = (this.state.screenWidth <= 720);
 
     if (isMobile !== true){
+      console.log("Not mobile");
       return(
         <div className="container-fluid d-flex">
           <div className="container" style={ctaStyle}>
             <h1 className="h1Style"><center>Manage your day in one app</center></h1>
             <p className="pStyle"><center>The only app you needs today, tomorrow, and every days after</center></p>
-            <Buttons className="buttonCta" link="/signup" text="Sign me up"/>
+            <Buttons addClass="buttonCta homeButton-L" link="/signup" text="Sign me up"/>
           </div>
           <div className="bgImage">
             <img src="/images/home-image.png" alt="Background image" style={bgImgStyle}/>
@@ -76,9 +77,8 @@ class Home extends React.Component{
           <div className="container" style={ctaStyleMb}>
             <h1 className="h1StyleMb"><center>Manage your day in one app</center></h1>
             <p className="pStyleMb"><center>The only app you needs today, tomorrow, and every days after</center></p>
-            <Buttons className="buttonCta" link="/signup" text="Sign me up"/>
+            <Buttons addClass="buttonCta homeButton-Mb" link="/signup" text="Sign me up"/>
           </div>
-          
         </div>
       );
     }
