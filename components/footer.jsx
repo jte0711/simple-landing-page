@@ -47,7 +47,7 @@ class Footer extends React.Component{
             <span className="navFooterItems">Contact</span>
             <span className="navFooterItems">Terms of Service</span>
           </nav>
-          <Buttons addClass="navButton" link="/signup" text="Get started"/>
+          <Buttons addClass="navButton homeButton-L" link="/signup" text="Get started"/>
         </div>
 
         <div className="d-flex justify-content-between align-items-center" style={idStyle}>

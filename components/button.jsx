@@ -9,8 +9,8 @@ let buttonStyle = {
   backgroundColor: "#38D39F",
   borderColor: "#38D39F",
   opacity: "95%",
-  color: "black",
-  width: "10rem"
+  color: "black"
+  // width: "10rem"
 };
 
 class Buttons extends React.Component{

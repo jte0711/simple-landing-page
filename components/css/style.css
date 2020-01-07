@@ -13,19 +13,6 @@
   font-weight: bolder;
 }
 
-.h1StyleMb {
-  font-size: 2.5rem;
-  font-weight: bolder;
-  max-width: 22rem;
-}
-
-.pStyleMb {
-  font-size: 1.2rem;
-  font-weight: lighter;
-  margin-top: 1rem;
-  max-width: 22rem;
-}
-
 .iconBox {
   margin-left: 1rem;
   margin-right: 2rem;
@@ -84,10 +71,10 @@ h3 {
   margin: 0rem 2.5rem;
 }
 
-.homeButton-Mb {
-  width: 15rem;
-  text-align: center;
+.homeButton-L {
+  width: 10rem;
 }
+
 .buttonCta {
   margin-top: 1rem;
   font-size: 1rem;
@@ -114,6 +101,46 @@ div .navbar {
   margin-bottom: 1.2rem;
 }
 
+/* Mobile Style */
+
+.homeButton-Mb {
+  width: 15rem;
+  text-align: center;
+}
+
+.hrStyle-Mb {
+  margin-top: 3rem;
+  height: 0.4px;
+  width: 35%;
+  background-color: grey;
+}
+
+.h1StyleMb {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  max-width: 22rem;
+}
+
+.pStyleMb {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  margin-top: 1rem;
+  max-width: 30rem;
+}
+
+.iconBoxMb {
+  margin-right: 1.5rem;
+}
+
+.textBoxMb h3{
+  margin-top: 0.6rem;
+}
+
+.textBoxMb p {
+  margin-bottom: 0.6rem;
+}
+
+/* Media Queries  */
 @media (max-width: 1030px) {
   html {
     font-size: 13px;

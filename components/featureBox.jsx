@@ -18,17 +18,32 @@ class FeatureBox extends React.Component{
   }
 
   render(){
-    return(
-      <div className="featBox d-flex align-items-center">
-        <div className="iconBox">
-          <img src={this.state.imgSrc} alt={this.state.imgAlt} style={iconStyle}/>
+
+    if (this.props.isMobile !== true){
+      return(
+        <div className="featBox d-flex align-items-center">
+          <div className="iconBox">
+            <img src={this.state.imgSrc} alt={this.state.imgAlt} style={iconStyle}/>
+          </div>
+          <div className="textBox d-flex align-items-center flex-column">
+            <h3>{this.state.title}</h3>
+            <p className="descStyle" align="center">{this.state.description}</p>
+          </div>
         </div>
-        <div className="textBox d-flex align-items-center flex-column">
-          <h3>{this.state.title}</h3>
-          <p className="descStyle" align="center">{this.state.description}</p>
+      );
+    } else {
+      return(
+        <div className="d-flex justify-content-center align-items-center" styles={{height: "6rem"}}> 
+          <div className="iconBoxMb">
+            <img src={this.state.imgSrc} alt={this.state.imgAlt} style={iconStyle}/>
+          </div>
+          <div className="textBoxMb d-flex align-items-center flex-column">
+            <h3>{this.state.title}</h3>
+            <p className="descStyle" align="center">{this.state.description}</p>
+          </div>
         </div>
-      </div>
-    );
+      );
+    }    
   }
 }
 
