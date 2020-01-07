@@ -94,10 +94,6 @@ class Features extends React.Component{
               <div className="betweenPad"></div>
               <FeatureBox isMobile={isMobile} imgSrc="images/events.svg" alt="Reminder illustration" title="Reminder">Manage your schedule and activities with a calendar that integrates with other functions </FeatureBox>
             </div>
-
-            <div className="row d-flex justify-content-center rowComp">
-              </div>
-
           </div>
         </div>
       );
