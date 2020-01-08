@@ -18,7 +18,8 @@ let imgStyle = {
 }
 
 let h1StyleMb = {
-  margin: "0.5rem 0 1.5rem 0"
+  margin: "0.5rem 0 1.5rem 0",
+  maxWidth: "45rem"
 }
 
 class PageResponsive extends React.Component{
@@ -79,7 +80,7 @@ class PageResponsive extends React.Component{
         <div className="container-fluid d-flex flex-column align-items-center" style={featuresStyle}>
           <hr className="hrStyle"/>
           <div className="d-flex flex-column align-items-center" style={contentBox}>
-            <h1 className="h1Style" style={h1StyleMb}>{this.state.title}</h1>
+            <h1 className="h1StyleMb" style={h1StyleMb}>{this.state.title}</h1>
             <p style={{fontSize: "1.5rem", marginBottom: "1.5rem"}}>{this.state.description}</p>
             <div>
               <img src={this.state.imgSrc} alt={this.state.imgAlt} style={imgStyle}></img>

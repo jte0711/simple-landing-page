@@ -23,8 +23,8 @@ class LandingPage extends React.Component{
         <NavHead/>
         <Home/>
         <Features/>
-        <PageResponsive imgSrc="images/undraw_trendy_interface_lg8x.svg" imgAlt="Trendy interface illustration" title="Responsive and designed 
-        for user" titleAlign="left">We carefully design the app to have  modern 
+        <PageResponsive imgSrc="images/undraw_trendy_interface_lg8x.svg" imgAlt="Trendy interface illustration" title="Responsive and designed for user" titleAlign="left">
+        We carefully design the app to have  modern       
         looks and following the current style trend. 
         We’re making sure it won’t looks boring and 
         suits the taste of users while not ignoring
