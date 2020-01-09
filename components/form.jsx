@@ -4,7 +4,7 @@ let formStyle = {
   // marginTop: "2.8rem"
   marginTop: "12rem",
   width: "80%"
-}
+};
 
 let buttonStyle = {
   width: "100%",
@@ -16,6 +16,11 @@ let buttonStyle = {
   opacity: "95%",
   color: "black",
 };
+
+let formStyleMb = {
+  marginTop: "1rem",
+  width: "34rem"
+}
 
 class NameForm extends React.Component {
   constructor(props) {
@@ -47,17 +52,33 @@ class NameForm extends React.Component {
   }
 
   render() {
-    return (
-      <form id="contactForm" onSubmit={this.handleSubmit} className="form-submit" style={formStyle}>
-        <label className="formLabel">Your Name</label>
-        <input type="text" value={this.state.nameValue} onChange={this.handleChange} id="inputName" className="form-control formInput" placeholder="Write your name here" required="" autoFocus=""/>
-        <label className="formLabel">Email</label>
-        <input type="email" value={this.state.emailValue} onChange={this.handleChange} id="inputEmail" className="form-control formInput" placeholder="Enter your email here" required="" autoFocus=""/>
-        <label className="formLabel">Your Message</label>
-        <textarea value={this.state.messageValue} onChange={this.handleChange} className="form-control formInput" form="contactForm" id="inputText" placeholder="Write your message here" name="inputMessage" rows="4" cols="15"></textarea>
-        <input className="btn btn-primary" type="submit" value="Submit" style={buttonStyle}/>
-      </form>
-    );
+
+    if (this.props.isMobile == false){
+      return (
+        <form id="contactForm" onSubmit={this.handleSubmit} className="form-submit" style={formStyle}>
+          <label className="formLabel">Your Name</label>
+          <input type="text" value={this.state.nameValue} onChange={this.handleChange} id="inputName" className="form-control formInput" placeholder="Write your name here" required="" autoFocus=""/>
+          <label className="formLabel">Email</label>
+          <input type="email" value={this.state.emailValue} onChange={this.handleChange} id="inputEmail" className="form-control formInput" placeholder="Enter your email here" required="" autoFocus=""/>
+          <label className="formLabel">Your Message</label>
+          <textarea value={this.state.messageValue} onChange={this.handleChange} className="form-control formInput" form="contactForm" id="inputText" placeholder="Write your message here" name="inputMessage" rows="4" cols="15"></textarea>
+          <input className="btn btn-primary" type="submit" value="Submit" style={buttonStyle}/>
+        </form>
+      );
+    } else {
+      return(
+        <form id="contactForm" onSubmit={this.handleSubmit} className="form-submit" style={formStyleMb}>
+          <label className="formLabel">Your Name</label>
+          <input type="text" value={this.state.nameValue} onChange={this.handleChange} id="inputName" className="form-control formInput" placeholder="Write your name here" required="" autoFocus=""/>
+          <label className="formLabel">Email</label>
+          <input type="email" value={this.state.emailValue} onChange={this.handleChange} id="inputEmail" className="form-control formInput" placeholder="Enter your email here" required="" autoFocus=""/>
+          <label className="formLabel">Your Message</label>
+          <textarea value={this.state.messageValue} onChange={this.handleChange} className="form-control formInput" form="contactForm" id="inputText" placeholder="Write your message here" name="inputMessage" rows="4" cols="15"></textarea>
+          <input className="btn btn-primary" type="submit" value="Submit" style={buttonStyle}/>
+        </form>
+      );
+    }
+    
   }
 }
 
