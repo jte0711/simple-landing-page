@@ -20,7 +20,7 @@ let bgImgStyle = {
 
 let buttonStyle = {
   width: "100%",
-  height: "3.575rem",
+  height: "3rem",
   borderRadius: "15px",
   fontSize: "1.2rem",
   backgroundColor: "#38D39F",
@@ -45,7 +45,7 @@ let bgImgStyleMb = {
 };
 
 let labelStyleMb = {
-  fontSize: "2rem",
+  fontSize: "2.5rem",
   fontWeight: "bold",
   marginBottom: "1rem"
 };
@@ -57,7 +57,7 @@ let formStyleMb = {
 
 let buttonStyleMb = {
   width: "100%",
-  height: "3.575rem",
+  height: "3rem",
   borderRadius: "15px",
   fontSize: "1.2rem",
   backgroundColor: "#38D39F",
@@ -146,7 +146,7 @@ class SubsForm extends React.Component {
             </form>
           </div>
         </div>
-      );
+      );  
     }
   }
 }
