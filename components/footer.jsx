@@ -89,7 +89,7 @@ class Footer extends React.Component{
 
     if (isMobile !== true){
       return(
-        <div className="container-fluid d-flex flex-column" style={footerStyle}>
+        <div className="footbar container-fluid d-flex flex-column" style={footerStyle}>
           <div className="d-flex align-items-center justify-content-between" style={navStyle}>
             <nav style={navFooterStyle}>
               <a className="noTextDecor" href="/index"><span className="navFooterItems">Home</span></a>
@@ -101,7 +101,7 @@ class Footer extends React.Component{
             <Buttons addClass="navButton homeButton-L" link="/signup" text="Get started"/>
           </div>
   
-          <div className="d-flex justify-content-between align-items-center" style={idStyle}>
+          <div className="footbar d-flex justify-content-between align-items-center" style={idStyle}>
             <div style={copyStyle}>
               <span>&copy; Made by James</span>
             </div>
@@ -117,7 +117,7 @@ class Footer extends React.Component{
       );
     } else {
       return(
-        <div className="container-fluid d-flex flex-column" style={footerMb}>
+        <div className="footbar container-fluid d-flex flex-column" style={footerMb}>
           <div className="d-flex align-items-center justify-content-between" style={navStyle}>
             <nav style={navFooterStyleMb}>
               <a className="noTextDecor" href="/index"><span className="navFooterItemsMb">Home</span></a>

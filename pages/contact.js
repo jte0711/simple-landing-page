@@ -15,9 +15,12 @@ class ContactPage extends React.Component{
           <title>Simple Landing Page</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
         </Head>
-        <NavHead/>
-        <ContactContent/>
-        <Footer/>
+        <div className="wrapper">
+          <NavHead/>
+          <ContactContent/>
+          <Footer/>
+        </div>
+        
       </div>
     );
   }

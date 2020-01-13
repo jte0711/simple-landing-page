@@ -113,7 +113,7 @@ class SubsForm extends React.Component {
 
     if (isMobile !== true){
       return (
-        <div className="container-fluid" style={contentStyle}>
+        <div className="content container-fluid" style={contentStyle}>
           <div className="row">
             <div className="col d-flex flex-column align-items-center justify-content-center" style={{marginTop: "12rem",}}>
               <h1 style={labelStyle}>Subscribe to get updates</h1>
@@ -133,7 +133,7 @@ class SubsForm extends React.Component {
       );
     } else {
       return(
-        <div className="container-fluid" style={contentStyleMb}>
+        <div className="content container-fluid" style={contentStyleMb}>
           <div className="d-flex flex-column align-items-center">
             <div className="bgImage">
               <img src="/images/undraw_online_ad_mg4t.svg" alt="Background image" style={bgImgStyleMb}/>

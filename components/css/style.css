@@ -2,6 +2,21 @@
   text-decoration: none;
 }
 
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper .footbar,
+.wrapper .header {
+  flex-shrink: 0;
+}
+
+.wrapper .content {
+  flex-grow: 1;
+}
+
 .example::-webkit-scrollbar {
   display: none;
 }

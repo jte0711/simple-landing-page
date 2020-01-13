@@ -48,7 +48,7 @@ class ContactContent extends React.Component{
 
     if (isMobile !== true){
       return(
-        <div className="container-fluid" style={contentStyle}>
+        <div className="content container-fluid" style={contentStyle}>
           <div className="row" style={{height: "100%"}}>
             <div className="col-md" style={textStyle}>
               <div>
@@ -73,7 +73,7 @@ class ContactContent extends React.Component{
       );
     } else {
       return(
-        <div className="container-fluid" style={contentStyleMb}>
+        <div className="content container-fluid" style={contentStyleMb}>
          <div className="d-flex flex-column align-items-center">
             <h1 style={{fontSize: "2rem", marginBottom: "1rem"}}>GREETINGS</h1>
             <p style={{fontSize: "1.2rem", maxWidth: "34rem"}}>I'm James, this is my first landing page that I made from React. Please feel free to give me feedback about this

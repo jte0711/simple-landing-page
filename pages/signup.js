@@ -15,9 +15,12 @@ class SignUpPage extends React.Component{
           <title>Simple Landing Page</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
         </Head>
-        <NavHead/>
-        <SubsForm/>
-        <Footer/>
+        <div className="wrapper">
+          <NavHead/>
+          <SubsForm/>
+          <Footer/>
+        </div>
+        
       </div>
     );
   }

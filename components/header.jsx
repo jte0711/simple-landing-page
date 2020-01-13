@@ -47,7 +47,7 @@ class NavHead extends React.Component{
 
     if (isMobile !== true){
       return(
-        <nav className="navbar navbar-expand-sm navbar-light d-flex justify-content-between" style={navStyle}>
+        <nav className="header navbar navbar-expand-sm navbar-light d-flex justify-content-between" style={navStyle}>
           <a className="navbar-brand d-flex" href="/index">
             <img style={logoStyle} src="images/laptop.svg" width="30" height="30" className="d-inline-block align-top" alt="logo"/>
             <span style={spanStyle}>Dayday</span>
@@ -65,7 +65,7 @@ class NavHead extends React.Component{
       );
     } else {
       return(
-        <div>
+        <div className="header">
           <Navbar color="faded" light>
             <NavbarBrand href="/" className="mr-auto">
               <img style={logoStyle} src="images/laptop.svg" width="35" height="35" className="d-inline-block align-top" alt="logo"/>
