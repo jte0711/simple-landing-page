@@ -79,7 +79,7 @@ class Features extends React.Component{
       );
     } else {
       return(
-        <div className="container-fluid d-flex flex-column align-items-center">
+        <div id="features" className="container-fluid d-flex flex-column align-items-center">
           <hr className="hrStyle-Mb"/>
           <h1 className="h1StyleMb" style={h1MbStyle}>All-in-one apps</h1>
           <p className="pStyleMb" style={pStyle} align="center">Our application give you the best experience for all the features in. That’s including our to do list. 

@@ -54,7 +54,7 @@ class NavHead extends React.Component{
           </a>
           <div id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-item nav-link active" href="#">Features <span className="sr-only">(current)</span></a>
+              <a className="nav-item nav-link active" href="#features">Features <span className="sr-only">(current)</span></a>
               <a className="nav-item nav-link" href="#">About</a>
               <a className="nav-item nav-link" href="/contact">
                   Contact
