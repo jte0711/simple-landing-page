@@ -92,11 +92,11 @@ class Footer extends React.Component{
         <div className="container-fluid d-flex flex-column" style={footerStyle}>
           <div className="d-flex align-items-center justify-content-between" style={navStyle}>
             <nav style={navFooterStyle}>
-              <a href="/index"><span className="navFooterItems">Home</span></a>
-              <a href="#features"><span className="navFooterItems">Features</span></a>
-              <a><span className="navFooterItems">About</span></a>
-              <a href="/contact"><span className="navFooterItems">Contact</span></a>
-              <a><span className="navFooterItems">Terms of Service</span></a>
+              <a className="noTextDecor" href="/index"><span className="navFooterItems">Home</span></a>
+              <a className="noTextDecor" href="#features"><span className="navFooterItems">Features</span></a>
+              <a className="noTextDecor"><span className="navFooterItems">About</span></a>
+              <a className="noTextDecor" href="/contact"><span className="navFooterItems">Contact</span></a>
+              <a className="noTextDecor"><span className="navFooterItems">Terms of Service</span></a>
             </nav>
             <Buttons addClass="navButton homeButton-L" link="/signup" text="Get started"/>
           </div>
@@ -120,11 +120,11 @@ class Footer extends React.Component{
         <div className="container-fluid d-flex flex-column" style={footerMb}>
           <div className="d-flex align-items-center justify-content-between" style={navStyle}>
             <nav style={navFooterStyleMb}>
-              <a href="/index"><span className="navFooterItemsMb">Home</span></a>
-              <a href="#features"><span className="navFooterItemsMb">Features</span></a>
-              <a><span className="navFooterItemsMb">About</span></a>
-              <a href="/contact"><span className="navFooterItemsMb">Contact</span></a>
-              <a><span className="navFooterItemsMb">Terms of Service</span></a>
+              <a className="noTextDecor" href="/index"><span className="navFooterItemsMb">Home</span></a>
+              <a className="noTextDecor" href="#features"><span className="navFooterItemsMb">Features</span></a>
+              <a className="noTextDecor"><span className="navFooterItemsMb">About</span></a>
+              <a className="noTextDecor" href="/contact"><span className="navFooterItemsMb">Contact</span></a>
+              <a className="noTextDecor"><span className="navFooterItemsMb">Terms of Service</span></a>
             </nav>
             <Buttons addClass="navButtonMb homeButton-L" link="/signup" text="Get started"/>
           </div>

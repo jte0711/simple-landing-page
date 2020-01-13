@@ -1,3 +1,7 @@
+.noTextDecor:hover {
+  text-decoration: none;
+}
+
 .example::-webkit-scrollbar {
   display: none;
 }
