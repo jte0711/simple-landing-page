@@ -17,10 +17,7 @@ class Buttons extends React.Component{
 
   constructor(props){
     super(props);  
-    this.link = null;
-    if (this.props.link != null){
-      this.link = this.props.link;
-    }
+    this.link = this.props.link;
   }
 
   render(){
